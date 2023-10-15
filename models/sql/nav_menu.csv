@@ -1,0 +1,7 @@
+fld_subid,fld_subcode,fld_subname,fld_subicon
+1,sale,ฝ่ายขาย,fa-comments-dollar
+2,pur,จัดซื้อ,fa-file-invoice-dollar
+3,wh,คลังสินค้า,fa-warehouse
+4,acc,บัญชี,fa-file-contract
+5,rep,รายงาน,fa-chart-bar
+6,set,ตั้งค่า,fa-users-cog
