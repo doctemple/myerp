@@ -14,7 +14,7 @@ for notes on deploying the project on a live system.
 Requirements for the software and other tools to build, test and push 
 - [PHP](https://www.php.net/downloads)
 - [Apache](https://httpd.apache.org/download.cgi)
-- [PostgreSQL](https://www.postgresql.org/download/)
+- [MySQL](https://dev.mysql.com/downloads)
 - [GIT](https://git-scm.com/download/win)
 
 ### Installing
@@ -24,7 +24,7 @@ Requirements for the software and other tools to build, test and push
     git config --global user.password "Password"
     git config --global --list
 
-    git clone https://github.com/doctemple/mahaerp.git
+    git clone https://github.com/doctemple/myerp.git
 
     rename "core/sample-config.php" "core/config.php"
 
@@ -34,17 +34,17 @@ Requirements for the software and other tools to build, test and push
         DEFINE('_SYS',array(
             'system' => 'System Name',
             'mode' => 'dev',
-            'db' => 'PostgreSQL',
+            'db' => 'MySQL',
             'host' => 'localhost',
             'port' => '5432',
-            'username' => 'postgres',
+            'username' => 'admin',
             'password' => '?',
             'dbname' => '?'
         ));
       ?>
 
-      Try PostgreSQL Password to password
-      Try PostgreSQL Database Name to dbname
+      Try MySQL Password to password
+      Try MySQL Database Name to dbname
       Saved.
 
 ## Push Source Code
